@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Select, Col, Row, Space, Button, Card } from 'antd';
+import { Select, Col, Row, Space } from 'antd';
 import { DemoList } from './content';
 // import './style.css';
 import { disPlayCurrentDome } from './util';

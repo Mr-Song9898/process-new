@@ -8,7 +8,7 @@ import NodeContextMenu from './contextMenu';
 import './style.css';
 
 const Option = Select.Option;
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Sider, Content } = Layout;
 const innerWidth = window.innerWidth || (document.body && document.body.clientWidth);
 const innerHeight = window.innerHeight || (document.body && document.body.clientHeight);
 export default class Modes extends Component {

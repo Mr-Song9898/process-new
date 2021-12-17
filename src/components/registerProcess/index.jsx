@@ -5,12 +5,12 @@ import { v4 as uuidv4 } from 'uuid';
 import './style.css';
 import {
   graphConfig,
-  colors,
+  // colors,
   defaultNodeConfig,
   defaultAnchorPoints,
   showLinkPoints,
   hideLinkPoints,
-  anchorList,
+  // anchorList,
 } from './config';
 import { NodeTooltips, NodeMenu, CanvasMenu } from './component';
 import { registerFn } from './register';
@@ -178,7 +178,7 @@ class RegisterProcess extends React.Component {
     
     // 监听edge上面mouse事件
     _this.graph.on('edge:mouseenter', e => {
-      const { item, target } = e
+      const { target } = e
       const type = target.get('type')
       if(type !== 'text') {
         return
@@ -349,7 +349,7 @@ class RegisterProcess extends React.Component {
       nodeMenuY,
       canvasMenuX,
       canvasMenuY,
-      nodeDetailVisible,
+      // nodeDetailVisible,
       currentNodeInfo,
       isModalVisible,
     } = this.state;

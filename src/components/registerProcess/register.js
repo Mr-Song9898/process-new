@@ -18,7 +18,7 @@ export const registerFn = (G6) => {
       draw(cfg, group) {
         const {
           name = '',
-          label,
+          // label,
           nodetype,
           status,
           style = {},
@@ -56,7 +56,7 @@ export const registerFn = (G6) => {
           },
         });
 
-        const rectBBox = rect.getBBox();
+        // const rectBBox = rect.getBBox();
 
         // label title
         group.addShape('text', {
@@ -74,17 +74,17 @@ export const registerFn = (G6) => {
         });
 
         // label
-        const state = group.addShape('text', {
-          attrs: {
-            ...textConfig,
-            x: 12 + nodeOrigin.x,
-            y: rectBBox.maxY - 12,
-            text: label,
-            fontSize: 12,
-            fill: '#000',
-            opacity: 0.85,
-          },
-        });
+        // const state = group.addShape('text', {
+        //   attrs: {
+        //     ...textConfig,
+        //     x: 12 + nodeOrigin.x,
+        //     y: rectBBox.maxY - 12,
+        //     text: label,
+        //     fontSize: 12,
+        //     fill: '#000',
+        //     opacity: 0.85,
+        //   },
+        // });
 
         group.addShape('image', {
           attrs: {

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Col, Row, Space, Button, Modal, Input, Select, Card } from 'antd';
+import { Col, Space, Button, Modal, Input, Select, Card } from 'antd';
 
-import { CloseOutlined } from '@ant-design/icons';
+// import { CloseOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
 import G6 from '@antv/g6';
 import { v4 as uuidv4 } from 'uuid';

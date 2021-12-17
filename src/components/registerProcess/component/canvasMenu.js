@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu, Icon } from 'antd'
+import { Menu } from 'antd'
 import { ApartmentOutlined } from '@ant-design/icons';
 import 'antd/es/menu/style/css'
 import { NodeModelMap } from '../config';

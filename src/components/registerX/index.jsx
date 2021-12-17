@@ -148,28 +148,28 @@ class RegisterX extends React.Component {
           });
   
           // bottom line background
-          const bottomBackRect = group.addShape('rect', {
-            attrs: {
-              x: nodeOrigin.x,
-              y: rectBBox.maxY - 4,
-              width: rectConfig.width,
-              height: 4,
-              radius: [0, 0, rectConfig.radius, rectConfig.radius],
-              fill: '#E0DFE3',
-            },
-          });
+          // const bottomBackRect = group.addShape('rect', {
+          //   attrs: {
+          //     x: nodeOrigin.x,
+          //     y: rectBBox.maxY - 4,
+          //     width: rectConfig.width,
+          //     height: 4,
+          //     radius: [0, 0, rectConfig.radius, rectConfig.radius],
+          //     fill: '#E0DFE3',
+          //   },
+          // });
   
           // bottom percent
-          const bottomRect = group.addShape('rect', {
-            attrs: {
-              x: nodeOrigin.x,
-              y: rectBBox.maxY - 4,
-              width: rate * rectBBox.width,
-              height: 4,
-              radius: [0, 0, 0, rectConfig.radius],
-              fill: colors[status],
-            },
-          });
+          // const bottomRect = group.addShape('rect', {
+          //   attrs: {
+          //     x: nodeOrigin.x,
+          //     y: rectBBox.maxY - 4,
+          //     width: rate * rectBBox.width,
+          //     height: 4,
+          //     radius: [0, 0, 0, rectConfig.radius],
+          //     fill: colors[status],
+          //   },
+          // });
   
           // collapse rect
           if (cfg.children && cfg.children.length) {

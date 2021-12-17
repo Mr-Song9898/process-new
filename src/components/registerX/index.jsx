@@ -31,7 +31,7 @@ class RegisterX extends React.Component {
             collapsed,
             currency,
             status,
-            rate,
+            // rate,
           } = cfg;
           const grey = '#CED4D9';
           // 逻辑不应该在这里判断
